@@ -493,6 +493,28 @@ table {
   border-collapse: collapse;
 }
 
+a {
+  text-decoration: none;
+  color: #4dc0b5;
+}
+
+.top-nav-item {
+  color: #606f7b;
+  font-size: .875rem;
+  margin-right: 1.25rem;
+  font-weight: 600;
+  padding-bottom: 1.5rem;
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.top-nav-item:hover {
+  text-decoration: none;
+  color: #4dc0b5;
+  border-color: #4dc0b5;
+}
+
 .container {
   width: 100%;
 }
