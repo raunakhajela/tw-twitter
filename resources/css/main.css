@@ -5,13 +5,21 @@ a{
     @apply text-teal;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 .top-nav-item{
-    @apply .text-grey-darker .text-sm .mr-5 .font-semibold .pb-6 .border-b-2 .border-solid .border-transparent;
+    @apply .text-grey-darker .text-sm .mr-4 .font-semibold .pb-4 .border-b-2 .border-solid .border-transparent;
 }
 
 .top-nav-item:hover{
     text-decoration: none;
     @apply .text-teal .border-teal;
+}
+
+.hero {
+    background: url('/img/cover.jpg');
 }
 
 @tailwind components;
