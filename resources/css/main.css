@@ -10,12 +10,12 @@ a:hover{
 }
 
 .top-nav-item{
-    @apply .text-grey-darker .text-sm .mr-4 .font-semibold .pb-4 .border-b-2 .border-solid .border-transparent;
+    @apply text-sm text-grey-darker mr-4 font-semibold pb-4 border-b-2 border-solid border-transparent;
 }
 
 .top-nav-item:hover{
     text-decoration: none;
-    @apply .text-teal .border-teal;
+    @apply text-teal border-teal;
 }
 
 .hero {
