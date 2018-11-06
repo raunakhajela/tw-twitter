@@ -1,4 +1,5 @@
 # Rebuilding twitter using tailwindcss
+![rebuilding twitter using tailwindcss](https://user-images.githubusercontent.com/6176598/48054537-87f30580-e1d3-11e8-90e9-9376f6a2e924.png)
 
 ## Tailwind Laravel installation [Windows]
 
