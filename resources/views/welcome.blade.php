@@ -13,15 +13,15 @@
     <body class="bg-grey-light font-sans">
         <header>
             <div class="bg-white">
-                <div class="container mx-auto flex items-center py-2">
-                    <nav class="w-2/5">
+                <div class="container mx-auto flex flex-col lg:flex-row items-center py-4">
+                    <nav class="w-full lg:w-2/5">
                         <a href="#" class="top-nav-item"><i class="fa fa-home fa-lg p-1"></i> Home</a>
                         <a href="#" class="top-nav-item"><i class="fa fa-bolt fa-lg p-1"></i> Moments</a>
                         <a href="#" class="top-nav-item"><i class="fa fa-bell fa-lg p-1"></i> Notifications</a>
                         <a href="#" class="top-nav-item"><i class="fa fa-envelope fa-lg p-1"></i> Messages</a>
                     </nav>
-                    <div class="w-1/5 text-center"><a href="#"><i class="fa fa-twitter fa-lg text-blue"></i></a></div>
-                    <div class="w-2/5 flex justify-end">
+                    <div class="w-full lg:w-1/5 text-center my-4 lg:my-0"><a href="#"><i class="fa fa-twitter fa-lg text-blue"></i></a></div>
+                    <div class="w-full lg:w-2/5 flex lg:justify-end">
                         <div class="mr-4 relative">
                             <input type="text" class="bg-grey-lighter h-8 px-4 py-2 text-xs font-medium w-48 rounded-full" placeholder="Search Twitter">
                             <span class="flex items-center absolute pin-r pin-y mr-3"><i class="fa fa-search text-grey"></i></span>
@@ -36,11 +36,11 @@
         <div class="hero h-64 bg-cover h-112"></div>
 
         <div class="bg-white shadow">
-            <div class="container mx-auto flex items-center relative">
-                <div class="w-1/4">
-                    <img src="/img/logo.jpg" alt="logo" class="rounded-full h-48 w-48 absolute pin-l pin-t -mt-24">
+            <div class="container mx-auto flex flex:col lg:flex-row items-center lg:relative">
+                <div class="w-full lg:w-1/4">
+                    <img src="/img/logo.jpg" alt="logo" class="rounded-full h-48 w-48 lg:absolute lg:pin-l lg:pin-t lg:-mt-24">
                 </div>
-                <div class="w-1/2">
+                <div class="w-full lg:w-1/2">
                     <ul class="list-reset flex">
                         <li class="text-center py-3 px-4 border-b-2 border-solid border-transparent border-teal">
                             <a href="#" class="text-grey-darker hover:no-underline">
@@ -74,7 +74,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-1/4 flex justify-end items-center">
+                <div class="w-full lg:w-1/4 flex my-4 lg:my-0 lg:justify-end items-center">
                     <div class="mr-6">
                         <button class="bg-teal hover:bg-teal-dark text-white font-medium py-2 px-4 rounded-full">Following</button>
                     </div>
@@ -85,8 +85,10 @@
             </div> <!-- end container -->
         </div>
 
-        <div class="container mx-auto flex mt-3 leading-normal">
-            <div class="w-1/4 pr-6 mt-8 mb-4">
+        <div class="container mx-auto flex flex-col lg:flex-row mt-3 leading-normal">
+            
+            
+            <div class="w-full lg:w-1/4 pl-4 lg:pl-0 pr-6 mt-8 mb-4">
                 <h1><a href="#" class="text-black">Tailwind CSS</a></h1>
                 <div class="mb-4"><a href="#" class="text-grey-darker">@tailwindcss</a></div>
 
@@ -126,7 +128,8 @@
                     <a href="#"><img src="/img/photo5.jpg" alt="photo" class="h-20 w-20 mr-1 mb-1"></a>
                 </div>
             </div>
-            <div class="w-1/2 bg-white mb-4">
+
+            <div class="w-full lg:w-1/2 bg-white mb-4">
                 <div class="p-3 text-lg font-bold border-b border-solid border-grey-light">
                     <a href="#" class="text-black mr-6">Tweets</a>
                     <a href="#" class="mr-6">Tweets &amp; Replies</a>
@@ -251,7 +254,8 @@
                     </div>
                 </div>
             </div>
-            <div class="w-1/4 pl-4">
+
+            <div class="w-full lg:w-1/4 pl-4">
                 <div class="bg-white p-3 mb-3">
                     <div>
                         <span class="text-lg text-black font-bold">Who to follow</span>
@@ -397,6 +401,8 @@
                     <span class="mr-2"><a href="#" class="text-grey-darker">Ads info</a></span>
                 </div>
             </div>
+            
+
         </div> <!-- end container -->
 
     </body>
