@@ -1,0 +1,27 @@
+@tailwind preflight;
+
+a{
+    text-decoration: none;
+    @apply text-teal;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.top-nav-item{
+    @apply text-lg text-grey mr-8 font-medium tracking-normal;
+}
+
+.top-nav-item:hover{
+    text-decoration: none;
+    @apply text-white;
+}
+
+.hero {
+    background: url('/img/cover.jpg');
+}
+
+@tailwind components;
+ 
+@tailwind utilities;

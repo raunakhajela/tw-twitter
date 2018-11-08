@@ -15,10 +15,15 @@ const tailwindcss = require('tailwindcss');
 // mix.js('resources/js/app.js', 'public/js')
 //    .sass('resources/sass/app.scss', 'public/css');
 
-mix.postCss('resources/css/main.css', 'public/css', [
-    tailwindcss('./tailwind.js'),
-  ])
-  .browserSync('127.0.0.1:8000'); //we are not using any proxy or valet so we simply pass our local port for browserSync to use it
+// mix.postCss('resources/css/twitter.css', 'public/css', [
+//     tailwindcss('./tailwind.js'),
+//   ])
+//   .browserSync('127.0.0.1:8000'); //we are not using any proxy or valet so we simply pass our local port for browserSync to use it
+
+mix.postCss('resources/css/treehouse.css', 'public/css', [
+  tailwindcss('./tailwind.js'),
+])
+.browserSync('127.0.0.1:8000');
 
 // after above step run "npm run watch"
 

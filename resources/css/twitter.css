@@ -10,7 +10,7 @@ a:hover{
 }
 
 .top-nav-item{
-    @apply text-sm text-grey-darker mr-4 font-semibold pb-4 border-b-2 border-solid border-transparent;
+    @apply text-sm text-grey-darker mr-4 font-semibold pb-6 border-b-2 border-solid border-transparent;
 }
 
 .top-nav-item:hover{

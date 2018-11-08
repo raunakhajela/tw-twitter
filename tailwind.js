@@ -193,6 +193,14 @@ module.exports = {
   */
 
   fonts: {
+    'raunak': [
+      'Helvetica Neue',
+      'Roboto',
+      'system-ui',
+      'BlinkMacSystemFont',
+      '-apple-system',
+      'sans-serif',
+    ],
     'sans': [
       'system-ui',
       'BlinkMacSystemFont',
@@ -485,6 +493,7 @@ module.exports = {
     '32': '8rem',
     '48': '12rem',
     '64': '16rem',
+    '120': '30rem',
     '1/2': '50%',
     '1/3': '33.33333%',
     '2/3': '66.66667%',
@@ -656,6 +665,7 @@ module.exports = {
     '4': '1rem',
     '5': '1.25rem',
     '6': '1.5rem',
+    '7': '1.75rem',
     '8': '2rem',
     '10': '2.5rem',
     '12': '3rem',
